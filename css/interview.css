@@ -1,0 +1,45 @@
+article h1 {
+    line-height: 150px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: #8FBC8F;
+    font-size: 18px;
+}
+
+section p {
+    text-indent: 2em;
+}
+
+section iframe {
+    width: 100%;
+}
+
+.col-lg-6 {
+    padding: 30px;
+}
+
+.image {
+    padding: 20px;
+    background-color: gray;
+}
+
+.image img {
+    width: 100%;
+}
+
+.expert {
+    margin-bottom: 30px;
+}
+
+.video {
+    height: 678px;
+}
+
+.video-introduction {
+    padding-top: 15px;
+}

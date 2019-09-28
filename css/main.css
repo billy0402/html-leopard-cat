@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a,
+a:hover {
+    color: #008888;
+}
+
+/* ---------- header ---------- */
+header {
+    padding-left: 30px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+header i {
+    padding-right: 0.5em;
+}
+
+header a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+/* ---------- nav ---------- */
+nav {
+    background-color: #97A6A7;
+    line-height: 70px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav ul li:hover {
+    background-color: #B6E6D4;
+}
+
+nav ul li a,
+nav ul li a:hover,
+nav ul li a:checked {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a img {
+    display: none;
+    padding-right: 10px;
+    width: 50px;
+}
+
+nav ul li a:hover img,
+.nav-link.active img {
+    display: inline;
+}
+
+.nav-pills .nav-link.active {
+    border-radius: 0;
+    background-color: mediumaquamarine;
+}
+
+/* ---------- article ---------- */
+article {
+    background-color: rgba(232, 232, 232, 0.7);
+}
+
+/* ---------- footer ---------- */
+footer {
+    height: 50px;
+    background-color: gray;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}

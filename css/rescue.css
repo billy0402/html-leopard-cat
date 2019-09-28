@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/rescue-background.jpg);
+}
+
+article h1 {
+    margin: 0;
+    background-color: white;
+    line-height: 150px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+}
+
+section:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+section img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+section title {
+    display: block;
+    line-height: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section p {
+    text-indent: 2em;
+}
+
+@media only screen and (min-width: 992px) {
+    .children {
+        padding-top: 300px;
+    }
+}

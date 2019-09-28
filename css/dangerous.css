@@ -1,0 +1,32 @@
+article h1 {
+    line-height: 150px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    margin: 30px 0;
+    box-sizing: border-box;
+    background-color: #8FBC8F;
+    font-size: 20px;
+}
+
+section title {
+    display: block;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.col-lg-6 {
+    padding: 30px;
+}
+
+.image {
+    padding: 20px;
+    background-color: gray;
+}
+
+.image img {
+    width: 100%;
+}

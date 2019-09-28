@@ -1,0 +1,55 @@
+article {
+    background-color: unset;
+}
+
+article img {
+    position: relative;
+    animation: picture-move 3s;
+}
+
+@keyframes picture-move {
+    from {
+        left: -50%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+.slogan {
+    padding: 40px;
+    writing-mode: vertical-lr;
+    line-height: 2em;
+    font-size: 5.25em;
+    font-weight: bold;
+
+    opacity: 0;
+    animation: fade-in 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 992px) {
+    .slogan {
+        line-height: 1.25em;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slogan p:nth-child(2) {
+    text-indent: 4em;
+}
+
+.slogan p:last-child {
+    text-indent: 1em;
+}
